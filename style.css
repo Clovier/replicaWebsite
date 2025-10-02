@@ -1,0 +1,250 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#first-div{
+    position:relative;
+    width:100%;
+    height:120px;
+    padding:0 80px;
+    border-bottom:2px solid rgb(39, 20, 8);
+    background-color:rgb(250, 250, 248);
+    box-sizing:border-box; 
+}
+
+#your-site-title{
+    position:absolute;
+    top:32px;
+    left:70px;
+    margin:0;
+    font-size:25px;
+    font-family:"Palanquin Dark", sans-serif;
+    font-style:normal;
+    font-weight:400px;
+    color:rgb(236, 105, 55);
+}
+
+#projects{
+    position:absolute;
+    top:45px;
+    right:335px;
+    margin:0;
+    font-family:"Kantumruy Pro", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:399;
+    font-style:normal;
+    font-size:15px;
+}
+
+#book-consultation{
+    position:absolute;
+    top:24px;
+    right:80px;
+    margin:0;
+    border:3.5px solid rgb(236, 105, 55);
+    padding: 18px 35px;
+    color:rgb(236, 105, 55);
+
+    font-family:"Carrois Gothic", sans-serif;
+    font-weight:400;
+    font-size:15px;
+
+    background-color:rgb(250, 250, 248);
+}
+
+#book-consultation:hover{
+    color:rgb(250, 250, 248);
+    background-color:rgb(236, 105, 55);
+    transition:ease-in 0.2s;
+}
+
+#second-div{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    width:100%;
+    height:800px;
+    padding:0 80px;
+
+    background-color: rgb(255,208,164);
+    border-bottom:2px solid rgb(39, 20, 8);
+    box-sizing:border-box;
+}
+
+#second-div-text{
+    display:flex;
+    flex-direction:column;
+    gap:60px;
+    max-width:520px;
+    align-items:flex-start;
+}
+
+#helen{
+    width:550px;
+    height:auto;
+    border-radius:40px;
+    transform:translateX(-70px);
+}
+
+#hey-im-adri,#help-small-bus,#work-with-me{
+    margin:0;
+    
+}
+
+#hey-im-adri{
+    color: rgb(17,14,10);
+    font-size:48px;
+    font-family:"Dela Gothic One", sans-serif;
+}
+
+#help-small-bus{
+    color: rgb(17,14,10);
+    font-size:25px;
+    font-family:"Dela Gothic One", sans-serif;
+}
+
+#work-with-me{
+    display:inline-block;
+    border:3.5px solid rgb(236, 105, 55);
+    padding: 18px 135px;
+    color:rgb(236, 105, 55);
+
+    font-family:"Carrois Gothic", sans-serif;
+    font-size:15px;
+    text-align:center;
+}
+
+#work-with-me:hover{
+    color:rgb(250, 250, 248);
+    background-color:rgb(236, 105, 55);
+    transition:ease-in-out 0.2s;
+}
+
+#third-div{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    width:100%;
+    height:800px;
+    padding:0;
+
+    background-color: rgb(250, 250, 248);
+    border-bottom:2px solid rgb(39, 20, 8);
+    box-sizing:border-box;
+}
+
+#desk{
+    width:770px;
+    height:800px;
+}
+
+#third-div-text{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    max-width:900px;
+    align-items:flex-start;
+    padding:0 150px;
+    transform:translateY(-50px);
+}
+
+#my-approach{
+    color: rgb(17,14,10);
+    font-size:30px;
+    font-family:"Dela Gothic One", sans-serif;
+    margin-top:100px;
+    margin-bottom:80px;
+}
+
+#collaborative{
+    color: rgb(17,14,10);
+    font-size:20px;
+    font-family:"Dela Gothic One", sans-serif;
+    margin-bottom:20px;
+}
+
+#i-believe{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+    margin-bottom:60px;
+    max-width:420px;
+}
+
+#iterative{
+    color: rgb(17,14,10);
+    font-size:20px;
+    font-family:"Dela Gothic One", sans-serif;
+}
+
+#i-take{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+    max-width:376px;
+    margin-bottom:30px;
+}
+
+#forth-div{
+    display:flex;
+    flex-direction: column;;
+    justify-content:flex-start;
+    align-items:center;
+    
+    width:100%;
+    min-height:800px;
+    padding:100px 60px;
+
+    background-color: rgb(250, 250, 248);
+    box-sizing:border-box;
+}
+
+#case-studies-title{
+    color: rgb(17,14,10);
+    font-size:55px;
+    font-family:"Dela Gothic One", sans-serif;
+    margin-bottom:130px;
+}
+
+#case-study-sections{
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+    width:100%;
+    max-width:1000px;
+    box-sizing: border-box;
+}
+
+.case-block{
+    flex:1;
+    background:rgb(233, 107, 55);
+    padding:35px 35px;
+    border-radius:35px;
+    box-sizing:border-box;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.case-title{
+    margin:0;
+    font-family:"Dela Gothic One", sans-serif;
+    font-size:19px;
+    margin-bottom:50px;
+    max-width:200px;
+}
+
+.case-desc{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:11px;
+    line-height:1.55;
+    margin-bottom:15px;
+}
+
+.view-project{
+    font-family:"Carrois Gothic", sans-serif;
+    font-size:12px;
+    text-decoration:underline;
+    color:black;
+}
